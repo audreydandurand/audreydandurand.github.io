@@ -1,0 +1,149 @@
+/*----- Styles Généraux -----*/
+
+@font-face {
+    font-family: lilita-one;
+    src: url(/assets/fonts/Lilita_One/LilitaOne-Regular.ttf);
+  }
+
+@font-face {
+    font-family: besley;
+    src: url(/assets/fonts/Besley/Besley-VariableFont_wght.ttf);
+}
+
+h1 { 
+    font-size: 70px; 
+    font-weight: 900; 
+    color: var(--bs-dark); 
+    }
+
+h2 { 
+    font-size: 60px; 
+    font-family: lilita-one;
+    color: var(--bs-primary); 
+}
+
+h3 { 
+    font-size: 30px; 
+    font-family: besley;
+    color: var(--bs-light); 
+    }
+
+h4 { 
+    font-size: 28px; 
+    font-family: lilita-one;
+    color: var(--bs-dark); 
+}
+
+h5 { 
+    font-size: 24px; 
+    font-family: besley;
+    color: var(--bs-primary); 
+    }
+ 
+h6 { 
+    font-size: 20px; 
+    font-family: lilita-one;
+    color: var(--bs-primary); 
+}
+
+p {
+    font-family: besley;
+}
+
+nav{
+    background-color: var(--bs-primary);
+    width: 100vw;
+}
+
+main{
+    height: 120%;
+    overflow-y: scroll;
+} 
+
+/*----- Section Hero -----*/
+
+.sectionHero h2 {
+    color: var(--bs-dark);
+    letter-spacing: 15px;
+}
+
+.sectionHero h3 {
+    color: var(--bs-dark);
+    letter-spacing: 10px;
+}
+
+.sectionHero img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 100% 40%;
+    border-radius: 80% 80% 0 0;
+}
+
+.contact-hero {
+    background-color: var(--bs-primary);
+    border-radius: 15px;
+    width: 220px;
+}
+
+/*----- Section types d'oeuves -----*/
+
+.sectionTypesOeuvres {
+    background-color: var(--bs-light);
+}
+
+.sectionTypesOeuvres .card-1 {
+    background-color: var(--bs-primary);
+}
+
+.sectionTypesOeuvres .card-2 {
+    background-color: var(--bs-secondary);
+}
+
+.sectionTypesOeuvres .card-3 {
+    background-color: var(--bs-info);
+}
+
+.sectionTypesOeuvres .card-4 {
+    background-color: #9BA4B5;
+}
+
+.sectionTypesOeuvres img, video {
+    height: 165px;
+    width: auto;
+    object-fit: cover;
+    object-position: 100% 50%;}
+
+
+/*----- Section citation -----*/
+
+.sectionCitation {
+    background-color: var(--bs-primary);
+}
+
+.sectionCitation h1 {
+    font-size: 40px;
+}
+
+
+/*----- Section footer -----*/
+
+footer a {
+    text-decoration: none;
+    color: var(--bs-primary)
+}
+
+footer a:hover {
+    color: var(--bs-primary)
+}
+
+/*----- Bande colorée -----*/
+
+.bande-coloree-medium {
+    width: 100%;
+    height: 100px;
+    background-image: url(../assets/images/bande_colore_150px_02.jpg);
+    background-position: 100% 40%;
+    background-size: cover;
+}
+

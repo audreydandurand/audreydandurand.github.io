@@ -1,0 +1,14 @@
+
+/*----- Section hero -----*/
+
+.sectionHeroAPropos {
+    background-color: var(--bs-info);
+}
+.sectionHeroAPropos img {
+    width: 50%;
+    border-radius: 80% 80% 0 0;
+}
+
+.sectionCitation {
+    background-color: var(--bs-info);
+}

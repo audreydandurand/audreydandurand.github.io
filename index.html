@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Portfolio web</title>
+  <link href="./scss/couleur.css" rel="stylesheet" />
+  <link href="./css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/favicon_logo.png" alt="bootstrap">
+          Audrey Dandurand</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+          aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="./index.html" id="navbar-accueil" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="./projets.html" id="navbar-projets" class="nav-link">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a href="./a_propos.html" id="navbar-à-propos" class="nav-link">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#scrollspyContact" id="navbar-contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main data-bs-spy="scroll" data-bs-target="#navbar">
+    <section class="sectionHero" id="scrollspyAccueil"> <!--section-hero-->
+      <div class="container">
+        <div class="row mt-5 pt-5 pb-3 align-items-center">
+          <div class="col-lg-6 pb-4 text-center">
+            <img src="./assets/images/IMG_9174.JPG">
+          </div>
+          <div class="col-lg-6 text-start ps-5">
+            <h2>PORTFOLIO</h2>
+            <h3 class="text-end">Audrey Dandurand</h3>
+            <br /><br />
+            <div class="row justify-content-center">
+              <div class="col-6 contact-hero p-3 mx-4">
+                <h4>Pour en savoir plus sur moi</h4>
+                <a href="./a_propos.html" class="btn btn-dark">Cliquez ici</a>
+              </div>
+              <br /><br />
+              <div class="col-6 contact-hero p-3 mx-4">
+                <h4>Contact</h4>
+                <p>addandurand@gmail.com</p>
+                <a href="#" class="btn btn-dark">Voir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bande-coloree-medium my-3"></div>
+
+    <section class="sectionCitation">
+      <div class="container">
+        <div class="row py-5 text-center ">
+          <h1><i class="bi bi-quote"></i></h1>
+          <h3 class="text-dark">La créativité, c'est l'intelligence qui s'amuse.</h3>
+          <h6 class="text-dark mt-4">Albert Einstein</h6>
+        </div>
+    </section>
+
+    <section class="sectionTypesOeuvres">
+      <div class="container">
+        <div class="row pt-5 text-center ">
+          <h2 class="text-dark">Explorez</h2>
+        </div>
+        <div class="row pb-5 align-items-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-4 text-center">
+            <div class="card card-1">
+              <img src="./assets/images/planete_04_modif.jpg">
+              <div class="card-body">
+                Médium
+                <h3 class="card-title">3D</h3>
+                <br />
+                <a href="#" class="btn btn-dark">Voir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-4 text-center">
+            <div class="card card-2">
+              <video src="./assets/images/dandurand_audrey_texture_miniature.mp4" autoplay loop muted controls></video>
+              <div class="card-body">
+                Médium
+                <h3 class="card-title">Vidéo</h3>
+                <br />
+                <a href="#" class="btn btn-dark">Voir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-4 text-center">
+            <div class="card card-3">
+              <video src="./assets/images/onde_sonore.mp4" autoplay loop muted controls></video>
+              <div class="card-body">
+                Médium
+                <h3 class="card-title">Audio</h3>
+                <br />
+                <a href="#" class="btn btn-dark">Voir plus</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-4 text-center">
+            <div class="card card-4">
+              <img src="./assets/images/IMG_0061.JPG" class="card-img-top">
+              <div class="card-body">
+                Médium
+                <h3 class="card-title">Photographie</h3>
+                <br />
+                <a href="#" class="btn btn-dark">Voir plus</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="p-3 my-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ">
+          <div class="col-lg-12 text-lg-start">Audrey Dandurand</div>
+        </div>
+        <div class="col-lg-6">
+          <a class="col-lg-12 text-lg-end" href="https://github.com/audreydandurand/audrey_camilia_app_festival_art">
+            <div class="text-lg-end">https://github.com/audreydandurand/audrey_camilia_app_festival_art</div>
+          </a>
+          <div class="col-lg-12 text-lg-end">@2024</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
