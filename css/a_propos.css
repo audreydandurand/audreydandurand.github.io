@@ -12,3 +12,17 @@
 .sectionCitation {
     background-color: var(--bs-info);
 }
+
+/*----- Bande colorée -----*/
+
+.bande-coloree {
+    width: 100%;
+    height: 10px;
+    background-image: url(../assets/images/bande_colore.jpg);
+    background-position: 100% 40%;
+    background-size: cover;
+}
+
+.sectionObjectifCarriere {
+    background-color: var(--bs-light);
+}
