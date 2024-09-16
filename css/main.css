@@ -83,7 +83,6 @@ main{
 .contact-hero {
     background-color: var(--bs-primary);
     border-radius: 15px;
-    width: 220px;
 }
 
 /*----- Section types d'oeuves -----*/
