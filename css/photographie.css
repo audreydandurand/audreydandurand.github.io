@@ -112,24 +112,28 @@ main img {
     width: 25%;
     height: 100%;
     opacity: 0.4;
+    margin-top: 5px;
 }
 
 .mySwiper3 .swiper-slide {
   width: 25%;
   height: 100%;
   opacity: 0.4;
+  margin-top: 5px;
 }
 
 .mySwiper5 .swiper-slide {
   width: 25%;
   height: 100%;
   opacity: 0.4;
+  margin-top: 5px;
 }
 
 .mySwiper7 .swiper-slide {
   width: 25%;
   height: 100%;
   opacity: 0.4;
+  margin-top: 5px;
 }
 
 .mySwiper .swiper-slide-thumb-active {
