@@ -74,6 +74,16 @@ main img {
     width: 100%;
   }
 
+  .mySwiper6 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper8 {
+    height: 80%;
+    width: 100%;
+  }
+
 .mySwiper {
     height: 20%;
     box-sizing: border-box;
@@ -81,6 +91,18 @@ main img {
 }
 
 .mySwiper3 {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper5 {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper7 {
   height: 20%;
   box-sizing: border-box;
   padding: 10px 0;
@@ -98,10 +120,30 @@ main img {
   opacity: 0.4;
 }
 
+.mySwiper5 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper7 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
 .mySwiper .swiper-slide-thumb-active {
     opacity: 1;
   }
 
   .mySwiper3 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .mySwiper5 .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .mySwiper7 .swiper-slide-thumb-active {
     opacity: 1;
   }
