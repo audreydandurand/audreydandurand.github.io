@@ -89,11 +89,7 @@ html {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) { 
-    .contact-hero {
-        width: 70%;
-    }
-}
+
 
 /*----- Section types d'oeuves -----*/
 
@@ -156,3 +152,20 @@ footer a:hover {
     background-size: cover;
 }
 
+@media screen and (max-width: 768px) { 
+    .contact-hero {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) { 
+    .sectionHero h2 {
+        font-size: 45px;
+        letter-spacing: 10px;
+    }
+
+    .sectionHero h3 {
+        font-size: 25px;
+        letter-spacing: 8px;
+    }
+}
