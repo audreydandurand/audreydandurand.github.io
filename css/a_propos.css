@@ -23,3 +23,33 @@
     background-color: var(--bs-light);
 }
 
+.icon-adobe img {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.icon-code img {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+@media screen and (min-width: 576px) { 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+@media screen and (min-width: 992px) { 
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+}
