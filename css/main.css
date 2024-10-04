@@ -57,8 +57,11 @@ nav{
 
 main{
     height: 120%;
-    overflow-y: scroll;
 } 
+
+html {
+    overflow-x: hidden;
+}
 
 /*----- Section Hero -----*/
 
