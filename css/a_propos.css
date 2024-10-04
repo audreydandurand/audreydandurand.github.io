@@ -9,10 +9,6 @@
     border-radius: 80% 80% 0 0;
 }
 
-.sectionCitation {
-    background-color: var(--bs-info);
-}
-
 /*----- Bande colorée -----*/
 
 .bande-coloree {
@@ -23,6 +19,7 @@
     background-size: cover;
 }
 
-.sectionObjectifCarriere {
+.sectionInformations {
     background-color: var(--bs-light);
 }
+
