@@ -159,13 +159,27 @@ footer a:hover {
 }
 
 @media screen and (max-width: 576px) { 
-    .sectionHero h2 {
+    h2 {
         font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .sectionHero h2 {
         letter-spacing: 10px;
     }
 
     .sectionHero h3 {
-        font-size: 25px;
         letter-spacing: 8px;
     }
 }
