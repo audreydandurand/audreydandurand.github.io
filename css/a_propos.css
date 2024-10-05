@@ -19,8 +19,19 @@
     background-size: cover;
 }
 
+/*----- Section informations -----*/
+
 .sectionInformations {
     background-color: var(--bs-light);
+}
+
+.card {
+    height: 100%; 
+}
+
+.surligné {
+    background-color: var(--bs-info);
+    margin-bottom: 10px;    
 }
 
 .icon-adobe img {
