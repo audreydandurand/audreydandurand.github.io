@@ -49,7 +49,15 @@
     grid-template-columns: 1fr;
 }
 
+@media screen and (max-width: 576px) { 
+    .sectionHeroAPropos h2{
+        text-align: center;
+    }
 
+    .sectionHeroAPropos p{
+        text-align: center;
+    }
+}
 
 @media screen and (min-width: 576px) { 
     .grid {
