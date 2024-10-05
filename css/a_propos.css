@@ -50,12 +50,16 @@
 }
 
 @media screen and (max-width: 576px) { 
-    .sectionHeroAPropos h2{
-        text-align: center;
+    .sectionHeroAPropos img {
+        width: 80%;
+        border-radius: 80% 80% 0 0;
     }
+}
 
-    .sectionHeroAPropos p{
-        text-align: center;
+@media screen and (max-width: 365px) { 
+    .sectionHeroAPropos img {
+        width: 100%;
+        border-radius: 80% 80% 0 0;
     }
 }
 
