@@ -160,3 +160,22 @@ main img {
 .mySwiper7 .swiper-slide-thumb-active {
   opacity: 1;
 }
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: var(--bs-dark);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 8px 20px;
+    cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.swiper-button-next::after {
+  position: relative;
+  right: 20px;
+}
+
+.swiper-button-prev::after {
+  position: relative;
+  left: 20px;
+}
