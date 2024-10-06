@@ -2,16 +2,12 @@
 /*----- Section hero -----*/
 
 .sectionHeroContact div {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/IMG_5512.JPG);
-    height: 400px;
-    background-size: contain, cover;
-    background-repeat: no-repeat, no-repeat;
+    background-color: var(--bs-secondary);
 }
 
-.sectionHeroContact h2 {
-    position: relative;
-    top: 55%;
-    left: 10%;
+.sectionHeroContact img {
+    width: 100%;
+    border-radius: 80% 80% 0 0;
 }
 
 .sectionInformations {
