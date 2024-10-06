@@ -8,6 +8,7 @@
 .sectionHeroContact img {
     width: 100%;
     border-radius: 80% 80% 0 0;
+    max-width: 500px;
 }
 
 .sectionInformations {
