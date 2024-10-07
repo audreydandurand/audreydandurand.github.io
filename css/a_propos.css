@@ -75,4 +75,13 @@
         display: grid;
         grid-template-columns: 1fr;
     } 
+    .card h3 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .card h3 {
+        font-size: 30px;
+    }
 }
