@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Portfolio web</title>
+  <link href="./scss/couleur.css" rel="stylesheet" />
+  <link href="./css/main.css" rel="stylesheet" />
+  <link href="./css/video.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/images/favicon_logo.png" alt="bootstrap">
+          Audrey Dandurand</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+          aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="./index.html" id="navbar-accueil" class="nav-link">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="./projets.html" id="navbar-projets" class="nav-link">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a href="./a_propos.html" id="navbar-à-propos" class="nav-link">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" id="navbar-contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="py-5"></div>
+  <main data-bs-spy="scroll" data-bs-target="#navbar">
+    <div class="bande-coloree my-3"></div>
+    <section class="sectionHeroProjets" id="scrollspyProjets"> <!--section-hero-->
+      <div class="container">
+        <div class="text-center text-dark">
+          <h1 class="text-dark py-5">Vidéo</h1>
+        </div>
+      </div>
+    </section>
+    <div class="bande-coloree my-3"></div>
+
+    <!--section-oeuvre-1-->
+    <section class="sectionOeuvre1"> 
+      <div class="container">
+        <div class="row py-5 align-items-center text-center">
+          <div class="col-md-6 col-12 px-5">
+            <h4>Nature</h4>
+            <p>texte</p>
+            <p>Rôle: Monteur offline et online, Scénariste, Cadreur</p>
+            <p>Logiciel: DavinciResolve</p>
+          </div>
+          <div class="col-md-6 col-12 p-3">
+            <video controls poster="/assets/images/agoraphobie_poster.jpg">
+              <source src="./assets/images/nature.mov" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-oeuvre-2-->
+    <section class="sectionOeuvre2"> 
+      <div class="container">
+        <div class="row py-5 align-items-center text-center ">
+          <div class="col-md-6 col-12">
+            <video controls poster="/assets/images/dandurand_audrey_texture_h264_vimeo_1920_1080.mp4">
+              <source src="./assets/images/" type="video/mp4">
+            </video>
+          </div>
+          <div class="col-md-6 col-12 texte  px-5">
+            <h4>Infini</h4>
+            <p>Infiny est le premier être robot hybride ayant des réels gènes humains. Étant restreinte à certains lieux, elle tente de s'intégrer à la société et d'être acceptée. Elle repousse ses propres limites pour tenter d'y arriver.</p>
+            <p>Rôle: Cadreur, Monteur offline et online</p>
+            <p>Logiciel: DavinciResolve</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--section-oeuvre-3-->
+    <section class="sectionOeuvre3"> 
+      <div class="container">
+        <div class="row py-5 align-items-center text-center">
+          <div class="col-md-6 col-12 texte  px-5">
+            <h4>Agoraphobie</h4>
+            <p>Amélie, 19 ans, est hypersensible. Un jour, lorsqu'elle marche dans la rue, tout devient trop pour elle et elle perd contact avec la réalité. Ses pensées commencent à l'engloutir quand tout à coup, son ongle s'accroche sur un fil de sa poche. La douleur que ceci lui procure la distrait de son anxiété et elle revient à ses esprits.</p>
+            <p>Rôle: Monteur offline et online, Monteur sonore, Casting, Animateur 2D (Chaines), Scénariste</p>
+            <p>Logiciel: DavinciResolve</p>
+          </div>          
+          <div class="col-md-6 col-12">
+            <video controls poster="/assets/images/agoraphobie_poster.jpg">
+              <source src="./assets/images/agoraphobie_h264.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--section-oeuvre-4-->
+    <section class="sectionOeuvre4"> 
+      <div class="container">
+        <div class="row py-5 align-items-center text-center">     
+          <div class="col-md-6 col-12">
+            <video controls poster="/assets/images/dandurand_audrey_texture_h264_vimeo_1920_1080.mp4">
+              <source src="./assets/images/dandurand_audrey_texture_h264_vimeo_1920_1080.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="col-md-6 col-12 texte  px-5">
+            <h4>Texture</h4>
+            <p>Visualiser la nature sous tous ces angles.</p>
+            <p>Rôle: Cadreur, Monteur offline et online</p>
+            <p>Logiciel: DavinciResolve</p>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!--section-retour-projet-->
+    <section class="sectionretourProjets" id="scrollspyProjets"> <!--section-hero-->
+      <div class="container text-center text-dark p-5">
+        <a href="/projets.html" class="btn btn-dark">Retour aux projets</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="p-3 my-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ">
+          <div class="col-lg-12 text-lg-start">Audrey Dandurand</div>
+        </div>
+        <div class="col-lg-6">
+          <a class="col-lg-12 text-lg-end" href="https://github.com/audreydandurand/audrey_camilia_app_festival_art">
+            <div class="text-lg-end">https://github.com/audreydandurand/audrey_camilia_app_festival_art</div>
+          </a>
+          <div class="col-lg-12 text-lg-end">@2024</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+
+</body>
+
+</html>
