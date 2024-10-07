@@ -6,8 +6,9 @@
   background-size: cover;
 }
 
-main img {
+main video {
   width: 100%;
+  height: 100%;
 }
 
 .sectionOeuvre2 {
