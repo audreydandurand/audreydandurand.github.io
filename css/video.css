@@ -6,6 +6,8 @@
   background-size: cover;
 }
 
+/*----- Section oeuvre -----*/
+
 main video {
   width: 100%;
   height: 100%;
@@ -18,6 +20,8 @@ main video {
 .sectionOeuvre4 {
   background-color: var(--bs-secondary);
 }
+
+/*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
   .sectionOeuvre2 .container .row {
