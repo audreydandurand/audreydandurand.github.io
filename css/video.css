@@ -20,7 +20,6 @@ main video {
 .sectionOeuvre4 {
   background-color: var(--bs-secondary);
 }
-
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
