@@ -13,8 +13,9 @@ main video {
   height: 100%;
 }
 
-.sectionOeuvre2 {
+.sectionProcessusCreation .row {
   background-color: var(--bs-info);
+  border-radius: 30px;
 }
 
 .sectionOeuvre4 {
