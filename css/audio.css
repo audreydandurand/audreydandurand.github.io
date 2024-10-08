@@ -18,6 +18,10 @@ main video {
   border-radius: 30px;
 }
 
+.sectionProcessusCreation img {
+  width: 100%;
+}
+
 .sectionOeuvre4 {
   background-color: var(--bs-secondary);
 }
