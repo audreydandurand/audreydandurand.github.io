@@ -49,6 +49,8 @@
     grid-template-columns: 1fr;
 }
 
+/*----- Média query -----*/
+
 @media screen and (max-width: 576px) { 
     .sectionHeroAPropos img {
         width: 80%;
