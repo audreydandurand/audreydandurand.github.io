@@ -164,6 +164,18 @@ footer a img:hover {
     background-size: cover;
 }
 
+/*----- Distribution des taches pour les projets -----*/
+
+.distribution-taches {
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.distribution-taches p {
+    margin: 0;
+}
+
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) { 
