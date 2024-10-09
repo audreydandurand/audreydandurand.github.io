@@ -145,6 +145,10 @@ footer .logo{
     border-radius: 50%;
 }
 
+footer a img:hover {
+    transform: scale(1.06);
+}
+
 /*----- Bande colorée -----*/
 
 .bande-coloree-medium {
