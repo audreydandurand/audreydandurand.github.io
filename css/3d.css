@@ -20,6 +20,18 @@ main video {
 .sectionOeuvre4 {
   background-color: var(--bs-secondary);
 }
+
+/*----- Section processus de création -----*/
+
+.sectionProcessusCreation .row {
+  background-color: var(--bs-secondary);
+  border-radius: 30px;
+}
+
+.sectionProcessusCreation img {
+  width: 100%;
+}
+
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
@@ -83,12 +95,22 @@ main video {
   width: 100%;
 }
 
+.mySwiper8 {
+  height: 80%;
+  width: 100%;
+}
+
 .mySwiper5 {
   height: 20%;
   box-sizing: border-box;
   padding: 10px 0;
 }
 
+.mySwiper7 {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
 
 .mySwiper5 .swiper-slide {
   width: 25%;
@@ -97,7 +119,18 @@ main video {
   margin-top: 5px;
 }
 
+.mySwiper7 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  margin-top: 5px;
+}
+
 .mySwiper5 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiper7 .swiper-slide-thumb-active {
   opacity: 1;
 }
 
