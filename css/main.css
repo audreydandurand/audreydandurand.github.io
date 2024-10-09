@@ -55,6 +55,10 @@ nav{
     width: 100vw;
 }
 
+nav .nav-item:hover {
+    font-weight: 700;
+}
+
 main{
     height: 120%;
 } 
