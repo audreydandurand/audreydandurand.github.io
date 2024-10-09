@@ -11,8 +11,14 @@
     max-width: 500px;
 }
 
+/*----- Section informations -----*/
+
 .sectionInformations {
     background-color: var(--bs-light);
+}
+
+.sectionInformations a img:hover {
+    transform: scale(1.06);
 }
 
 /*----- Bande colorée -----*/
