@@ -66,8 +66,13 @@ nav{
 }
 
 nav .nav-item:hover {
-    font-weight: 700;
+    transform: scale(1.1);
 }
+
+nav .nav-item {
+    margin-right: 15px;
+}
+
 
 /*----- Section Hero -----*/
 
