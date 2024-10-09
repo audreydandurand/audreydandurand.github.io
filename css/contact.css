@@ -21,6 +21,14 @@
     transform: scale(1.06);
 }
 
+.adresse {
+    color: var(--bs-dark);
+}
+
+.adresse:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 /*----- Bande colorée -----*/
 
 .bande-coloree {
