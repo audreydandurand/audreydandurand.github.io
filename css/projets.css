@@ -13,13 +13,6 @@
     vertical-align: middle;
 }
 
-.sectionProjetsRecents hr {
-    width: 10vw;
-    height:2px;
-    border-width:0.2vw;
-    margin: 0 auto;
-}
-
 .sectionHeroProjets hr {
     width: 10vw;
     height:2px;
@@ -39,6 +32,13 @@
 }
 
 /*----- Section projets -----*/
+
+.sectionProjetsRecents hr {
+    width: 10vw;
+    height:2px;
+    border-width:0.2vw;
+    margin: 0 auto;
+}
 
 .sectionProjetsRecents {
     background-color: var(--bs-light);
@@ -64,10 +64,10 @@
 
 /*----- Bande colorée -----*/
 
-    .bande-coloree {
-        width: 100%;
-        height: 10px;
-        background-image: url(../assets/images/bande_colore.jpg);
-        background-position: 100% 40%;
-        background-size: cover;
-    }
+.bande-coloree {
+    width: 100%;
+    height: 10px;
+    background-image: url(../assets/images/bande_colore.jpg);
+    background-position: 100% 40%;
+    background-size: cover;
+}
