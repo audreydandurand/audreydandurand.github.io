@@ -27,6 +27,7 @@ main video {
   background-color: var(--bs-info);
   border-radius: 30px;
 }
+
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
