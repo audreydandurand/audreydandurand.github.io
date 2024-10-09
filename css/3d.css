@@ -28,6 +28,11 @@ main video {
   border-radius: 30px;
 }
 
+.sectionProcessusCreation .modelisation img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .sectionProcessusCreation img {
   width: 100%;
 }
