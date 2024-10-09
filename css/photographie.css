@@ -1,3 +1,9 @@
+/*----- Style général de la page -----*/
+
+main img {
+  width: 100%;
+}
+
 /*----- Section hero -----*/
 
 .sectionHeroProjets {
@@ -6,9 +12,7 @@
   background-size: cover;
 }
 
-main img {
-  width: 100%;
-}
+/*----- Section oeuvre -----*/
 
 .sectionOeuvre2 {
   background-color: var(--bs-info);
@@ -17,6 +21,8 @@ main img {
 .sectionOeuvre4 {
   background-color: var(--bs-secondary);
 }
+
+/*----- Média query -----*/
 
 @media screen and (max-width: 768px) {
   .sectionOeuvre2 .container .row {
