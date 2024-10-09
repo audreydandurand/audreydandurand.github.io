@@ -13,17 +13,19 @@ main video {
   height: 100%;
 }
 
-.sectionProcessusCreation .row {
-  background-color: var(--bs-info);
-  border-radius: 30px;
-}
-
 .sectionProcessusCreation img {
   width: 100%;
 }
 
 .sectionOeuvre4 {
   background-color: var(--bs-secondary);
+}
+
+/*----- Section processus de création -----*/
+
+.sectionProcessusCreation .row {
+  background-color: var(--bs-info);
+  border-radius: 30px;
 }
 /*----- Media query -----*/
 
