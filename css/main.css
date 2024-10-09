@@ -50,6 +50,16 @@ p {
     font-family: besley;
 }
 
+main{
+    height: 120%;
+} 
+
+html {
+    overflow-x: hidden;
+}
+
+/*----- Navigation -----*/
+
 nav{
     background-color: var(--bs-primary);
     width: 100vw;
@@ -57,14 +67,6 @@ nav{
 
 nav .nav-item:hover {
     font-weight: 700;
-}
-
-main{
-    height: 120%;
-} 
-
-html {
-    overflow-x: hidden;
 }
 
 /*----- Section Hero -----*/
@@ -92,8 +94,6 @@ html {
     border-radius: 15px;
     width: 100%;
 }
-
-
 
 /*----- Section types d'oeuves -----*/
 
@@ -158,6 +158,8 @@ footer a img:hover {
     background-position: 100% 40%;
     background-size: cover;
 }
+
+/*----- Media query -----*/
 
 @media screen and (max-width: 768px) { 
     .contact-hero {
