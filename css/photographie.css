@@ -186,3 +186,13 @@ main img {
   position: relative;
   left: 20px;
 }
+
+@media only screen and (max-width: 365px) {
+  .swiper-button-next::after {
+    display: none;
+  }
+  
+  .swiper-button-prev::after {
+    display: none;
+  }
+}
