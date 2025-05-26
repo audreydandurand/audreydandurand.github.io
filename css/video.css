@@ -22,7 +22,7 @@ main video {
 }
 
 .sectionOeuvre6 {
-  background-color: var(--bs-info);
+  background-color: var(--bs-secondary);
 }
 
 /*----- Media query -----*/
