@@ -21,6 +21,10 @@ main video {
   background-color: var(--bs-secondary);
 }
 
+.sectionOeuvre6 {
+  background-color: var(--bs-info);
+}
+
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
