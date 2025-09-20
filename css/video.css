@@ -13,26 +13,30 @@ main video {
   height: 100%;
 }
 
-.sectionOeuvre2 {
-  background-color: var(--bs-info);
+.couleur-blanc {
+  background-color: white;
 }
 
-.sectionOeuvre4 {
-  background-color: var(--bs-secondary);
-}
-
-.sectionOeuvre6 {
+.couleur-orange {
   background-color: var(--bs-info);
 }
 
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
-  .sectionOeuvre2 .container .row {
+  .sectionOeuvre1 .container .row {
     flex-direction: column-reverse;
   }
 
-  .sectionOeuvre4 .container .row {
+  .sectionOeuvre3 .container .row {
+    flex-direction: column-reverse;
+  }
+
+  .sectionOeuvre5 .container .row {
+    flex-direction: column-reverse;
+  }
+
+  .sectionOeuvre7 .container .row {
     flex-direction: column-reverse;
   }
 }

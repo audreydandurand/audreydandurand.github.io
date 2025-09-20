@@ -21,21 +21,6 @@ main video {
   background-color: var(--bs-secondary);
 }
 
-/*----- Section processus de création -----*/
-
-.sectionProcessusCreation .row {
-  background-color: var(--bs-secondary);
-  border-radius: 30px;
-}
-
-.sectionProcessusCreation .modelisation img {
-  width: 100%;
-  aspect-ratio: 1/1;
-}
-
-.sectionProcessusCreation img {
-  width: 100%;
-}
 
 /*----- Media query -----*/
 
@@ -81,6 +66,7 @@ main video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  cursor: zoom-in;
 }
 
 .swiper {
@@ -117,6 +103,16 @@ main video {
   padding: 10px 0;
 }
 
+.mySwiper9 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper10 {
+  height: 80%;
+  width: 100%;
+}
+
 .mySwiper5 .swiper-slide {
   width: 25%;
   height: 100%;
@@ -131,11 +127,22 @@ main video {
   margin-top: 5px;
 }
 
+.mySwiper9 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  margin-top: 5px;
+}
+
 .mySwiper5 .swiper-slide-thumb-active {
   opacity: 1;
 }
 
 .mySwiper7 .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiper9 .swiper-slide-thumb-active {
   opacity: 1;
 }
 
