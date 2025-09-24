@@ -3,56 +3,56 @@
 @font-face {
     font-family: lilita-one;
     src: url(/assets/fonts/Lilita_One/LilitaOne-Regular.ttf);
-  }
+}
 
 @font-face {
     font-family: besley;
     src: url(/assets/fonts/Besley/Besley-VariableFont_wght.ttf);
 }
 
-h1 { 
-    font-size: 70px; 
-    font-weight: 900; 
-    color: var(--bs-dark); 
-    }
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: var(--bs-dark);
+}
 
-h2 { 
+h2 {
     font-size: 60px;
     font-family: lilita-one;
-    color: var(--bs-primary); 
+    color: var(--bs-primary);
 }
 
-h3 { 
-    font-size: 30px; 
+h3 {
+    font-size: 30px;
     font-family: besley;
-    color: var(--bs-light); 
-    }
-
-h4 { 
-    font-size: 28px; 
-    font-family: lilita-one;
-    color: var(--bs-dark); 
+    color: var(--bs-light);
 }
 
-h5 { 
-    font-size: 24px; 
-    font-family: besley;
-    color: var(--bs-primary); 
-    }
- 
-h6 { 
-    font-size: 20px; 
+h4 {
+    font-size: 28px;
     font-family: lilita-one;
-    color: var(--bs-primary); 
+    color: var(--bs-dark);
+}
+
+h5 {
+    font-size: 24px;
+    font-family: besley;
+    color: var(--bs-primary);
+}
+
+h6 {
+    font-size: 20px;
+    font-family: lilita-one;
+    color: var(--bs-primary);
 }
 
 p {
     font-family: besley;
 }
 
-main{
+main {
     height: 120%;
-} 
+}
 
 html {
     overflow-x: hidden;
@@ -60,7 +60,7 @@ html {
 
 /*----- Navigation -----*/
 
-nav{
+nav {
     background-color: var(--bs-primary);
     width: 100vw;
 }
@@ -73,80 +73,89 @@ nav .nav-item {
     margin-right: 15px;
 }
 
-
-/*----- Section Hero -----*/
-
-.sectionHero h2 {
-    color: var(--bs-dark);
-    letter-spacing: 15px;
+nav .nav-item a {
+    color: var(--bs-light);
 }
 
-.sectionHero h3 {
+.navbar-brand img {
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+
+
+/*----- Section Hero -----*/
+.sectionHero {
+    overflow: hidden;
+}
+
+.sectionHero h2 {
     color: var(--bs-dark);
     letter-spacing: 10px;
 }
 
-.sectionHero img{
+.sectionHero h3 {
+    color: var(--bs-dark);
+    letter-spacing: 3px;
+}
+
+.sectionHero img {
     width: auto;
     height: 500px;
     object-fit: contain;
     object-position: 50% 15%;
     border-radius: 80% 80% 0 0;
+    z-index: 1;
 }
 
 .contact-hero {
-    background-color: var(--bs-primary);
-    border-radius: 15px;
     width: 100%;
+    color: var(--bs-primary);
+}
+
+.sectionHero .col-lg-6.text-center {
+    position: relative; /* permet de positionner le rectangle par rapport à cette colonne */
+}
+
+.couleur {
+    position: absolute;
+    top: -50%;
+    left: 50%; 
+    width: 300%;
+    height: 180%; 
+    background-color: var(--bs-secondary);
+    z-index: -1;
 }
 
 /*----- Section types d'oeuves -----*/
 
 .sectionTypesOeuvres {
-    background-color: var(--bs-light);
-}
-
-
-
-.sectionTypesOeuvres .card-1 {
-    background-color: var(--bs-primary);
-}
-
-.sectionTypesOeuvres .card-2 {
     background-color: var(--bs-secondary);
+    
 }
 
-.sectionTypesOeuvres .card-3 {
-    background-color: var(--bs-info);
+.sectionTypesOeuvres .card- {
+    border: none;
 }
 
-.sectionTypesOeuvres .card-4 {
-    background-color: #9BA4B5;
+.bg-transparent-white {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.sectionTypesOeuvres img, video {
-    height: 165px;
+.sectionTypesOeuvres img,
+video {
+    height: 150px;
     width: auto;
     object-fit: cover;
-    object-position: 100% 50%;
-    border-radius: 5px 5px 0px 0px;
+    object-position: 50% 50%;
+    border-radius: 5px;
 }
-
-
-/*----- Section citation -----*/
-
-.sectionCitation {
-    background-color: var(--bs-primary);
-}
-
-.sectionCitation h1 {
-    font-size: 40px;
-}
-
 
 /*----- Section footer -----*/
 
-footer .logo{
+footer .logo {
     width: 50px;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -161,11 +170,27 @@ footer a img:hover {
 /*----- Bande colorée -----*/
 
 .bande-coloree-medium {
-    width: 100%;
-    height: 100px;
-    background-image: url(../assets/images/bande_colore_150px_02.jpg);
-    background-position: 100% 40%;
-    background-size: cover;
+    height: 60px;
+    background-color: var(--bs-primary);
+}
+
+.bande-coloree-medium p {
+    font-size: 18px;
+    font-family: lilita-one;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.bande-coloree-medium span {
+    font-size: 18px;
+    font-family: lilita-one;
+    vertical-align: middle;
+    line-height: 60px;
+
+}
+
+.bande-coloree-medium .d-flex {
+    gap: 5em;
 }
 
 /*----- Distribution des taches pour les projets -----*/
@@ -182,14 +207,14 @@ footer a img:hover {
 
 /*----- Media query -----*/
 
-@media screen and (max-width: 1400px) { 
+@media screen and (max-width: 1400px) {
     .sectionTypesOeuvres .card h3 {
         height: 60px;
     }
 }
 
-@media screen and (max-width: 1200px) { 
-    .sectionHero img{
+@media screen and (max-width: 1200px) {
+    .sectionHero img {
         width: auto;
         height: 400px;
         object-fit: contain;
@@ -200,10 +225,14 @@ footer a img:hover {
     .sectionTypesOeuvres .card h3 {
         height: 100%;
     }
+
+    .bande-coloree-medium .d-flex {
+    gap: 3em;
+}
 }
 
-@media screen and (max-width: 992px) { 
-    .sectionHero img{
+@media screen and (max-width: 992px) {
+    .sectionHero img {
         width: auto;
         height: 400px;
         object-fit: contain;
@@ -211,15 +240,90 @@ footer a img:hover {
         border-radius: 80% 80% 0 0;
     }
 
+    .couleur {
+        display: none;
+    }
+
+    .sectionHero h2 {
+        text-align: center;
+    }
+
+    .sectionHero h3 {
+        text-align: center;
+    }
+
+    .contact-hero {
+        text-align: center;
+    }
+
+    .sectionHero .row {
+        flex-direction: column-reverse;
+    }
+
+    .bande-coloree-medium p {
+    font-size: 18px;
+    gap: 2;
 }
 
-@media screen and (max-width: 768px) { 
+.bande-coloree-medium span {
+    font-size: 18px;
+}
+
+.bande-coloree-medium .d-flex {
+    gap: 1em;
+}
+
+
+}
+
+@media screen and (max-width: 624px) {
+    .bande-coloree-medium p {
+    font-size: 13px;
+    gap: 2;
+}
+
+.bande-coloree-medium span {
+    font-size: 13px;
+}
+
+.bande-coloree-medium .d-flex {
+    gap: 1em;
+}
+}
+
+
+@media screen and (max-width: 768px) {
     .contact-hero {
         width: 95%;
+        position: relative;
+        left: -10px;
+        text-align: center;
     }
+
+    .sectionHero h2 {
+        text-align: center;
+    }
+
+    .sectionHero h3 {
+        text-align: center;
+    }
+
+    .bande-coloree-medium p {
+    font-size: 13px;
+    gap: 2;
 }
 
-@media screen and (max-width: 576px) { 
+.bande-coloree-medium span {
+    font-size: 13px;
+}
+
+.bande-coloree-medium .d-flex {
+    gap: 1em;
+}
+}
+
+
+@media screen and (max-width: 576px) {
     h2 {
         font-size: 45px;
     }
@@ -244,11 +348,31 @@ footer a img:hover {
         letter-spacing: 8px;
     }
 
-    .sectionHero img{
+    .sectionHero img {
         max-width: 100%;
         height: auto;
         max-height: 500px;
         object-fit: contain;
         border-radius: 80% 80% 0 0;
     }
+
+    .bande-coloree-medium p {
+    font-size: 80%;
+    gap: 2;
+}
+
+.bande-coloree-medium span {
+    font-size: 80%;
+}
+
+.bande-coloree-medium .d-flex {
+    gap: 1em;
+}
+}
+
+@media screen and (max-width: 501px) {
+    .bande-coloree-medium {
+    display: none;
+}
+
 }

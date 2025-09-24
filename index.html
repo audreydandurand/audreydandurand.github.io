@@ -7,7 +7,8 @@
   <meta name="robots" content="index" />
   <meta name="author" content="Audrey Dandurand">
   <meta name="keywords" content="Audrey Dandurand, Portfolio">
-  <meta name="description" content="Découvrez mon portfolio. Mes projets sont une exploration à travers différents médiums artistiques, allant de la 3D à la photographie, en passant par le montage vidéo et le montage sonore.">
+  <meta name="description"
+    content="Découvrez mon portfolio. Mes projets sont une exploration à travers différents médiums artistiques, allant de la 3D à la photographie, en passant par le montage vidéo et le montage sonore.">
   <title>Portfolio web</title>
   <link href="./scss/couleur.css" rel="stylesheet" />
   <link href="./css/main.css" rel="stylesheet" />
@@ -16,7 +17,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbar">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="./assets/images/logo/favicon_logo.png" alt="bootstrap">
@@ -51,82 +52,89 @@
     <section class="sectionHero" id="scrollspyAccueil"> <!--section-hero-->
       <div class="container">
         <div class="row mt-5 pt-5 pb-3 align-items-center">
-          <div class="col-lg-6 pb-4 text-center">
-            <img src="./assets/images/IMG_0031_compresse.jpg" alt="photo de profil">
-          </div>
           <div class="col-lg-6">
             <h2>PORTFOLIO</h2>
-            <h3 class="text-end ps-5">Audrey Dandurand</h3>
-            <br /><br />
+            <h3>Audrey Dandurand</h3>
+            <br />
             <div class="row justify-content-center">
-              <div class="col-12 contact-hero p-3 text-center">
-                <p>Diplômée en Techniques d’intégration multimédia du Collège Montmorency, je combine des compétences en postproduction, captation vidéo, photographie et design graphique.</p>
-                <a href="./a_propos.html" class="btn btn-dark">En savoir plus</a>
+              <div class="col-12 contact-hero py-3">
+                <p">Diplômée en Techniques d’intégration multimédia du Collège Montmorency, je combine des compétences
+                  en postproduction, captation vidéo, photographie et design graphique.</p>
+                  <br />
+                  <a href="./a_propos.html" class="btn btn-info">En savoir plus</a>
               </div>
             </div>
           </div>
+          <div class="col-lg-6 pb-4 text-center">
+            <img src="./assets/images/IMG_0031_compresse.jpg" alt="photo de profil">
+            <div class="couleur"></div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <div class="bande-coloree-medium my-3"></div>
-
-    <section class="sectionCitation">
-      <div class="container">
-        <div class="row py-5 text-center ">
-          <h1><i class="bi bi-quote"></i></h1>
-          <h3 class="text-dark">La créativité, c'est l'intelligence qui s'amuse.</h3>
-          <h6 class="text-dark mt-4">Albert Einstein</h6>
-        </div>
-    </section>
+    <div class="bande-coloree-medium my-3">
+  <div class="container">
+    <div class="d-flex justify-content-center flex-wrap text-light">
+      <p>Post-production</p>
+      <span>-</span>
+      <p>Captation vidéo</p>
+      <span>-</span>
+      <p>Photographie</p>
+      <span>-</span>
+      <p>Design graphique</p>
+    </div>
+  </div>
+</div>
 
     <section class="sectionTypesOeuvres">
       <div class="container">
-        <div class="row pt-5 text-center ">
+        <div class="row pt-5 pb-4 text-center ">
           <h2 class="text-dark">Explorez</h2>
         </div>
         <div class="row pb-5 align-items-center">
           <div class="col-xl-3 col-md-6 col-sm-12 pt-4 text-center">
-            <div class="card card-1">
-              <img src="./assets/images/design/compresse/desktop_fond_blanc.png" alt="Projet de 3D, Astral">
+            <div class="card card-1 bg-transparent-white border-secondary">
+              <img class="mx-4 mt-4" src="./assets/images/design/compresse/desktop_fond_blanc.png" alt="Projet de 3D, Astral">
               <div class="card-body">
                 Médium
                 <h3 class="card-title">Design graphique</h3>
                 <br />
-                <a href="./3d.html" class="btn btn-dark">Voir plus</a>
+                <a href="./3d.html" class="btn btn-info">Voir plus</a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-md-6 col-sm-12 pt-4 text-center">
-            <div class="card card-2">
-              <video src="./assets/videos/dandurand_audrey_texture_miniature.mp4" autoplay loop muted ></video>
+            <div class="card card-2 bg-transparent-white border-secondary">
+              <video class="mx-4 mt-4" src="./assets/videos/dandurand_audrey_texture_miniature.mp4" autoplay loop muted></video>
               <div class="card-body">
                 Médium
                 <h3 class="card-title">Vidéo</h3>
                 <br />
-                <a href="./video.html" class="btn btn-dark">Voir plus</a>
+                <a href="./video.html" class="btn btn-info">Voir plus</a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-md-6 col-sm-12 pt-4 text-center">
-            <div class="card card-3">
-              <video src="./assets/videos/onde_sonore.mp4" autoplay loop muted ></video>
+            <div class="card card-3 bg-transparent-white border-secondary">
+              <video class="mx-4 mt-4" src="./assets/videos/onde_sonore.mp4" autoplay loop muted></video>
               <div class="card-body">
                 Médium
                 <h3 class="card-title">Audio</h3>
                 <br />
-                <a href="./audio.html" class="btn btn-dark">Voir plus</a>
+                <a href="./audio.html" class="btn btn-info">Voir plus</a>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-md-6 col-sm-12 pt-4 text-center">
-            <div class="card card-4">
-              <img src="./assets/images/IMG_5604.JPG" class="card-img-top" alt="Projet de photographie">
+            <div class="card card-4 bg-transparent-white border-secondary">
+              <img src="./assets/images/IMG_5604.JPG" class="card-img-top mx-4 mt-4" alt="Projet de photographie">
               <div class="card-body">
                 Médium
                 <h3 class="card-title">Photographie</h3>
                 <br />
-                <a href="./photographie.html" class="btn btn-dark">Voir plus</a>
+                <a href="./photographie.html" class="btn btn-info">Voir plus</a>
               </div>
             </div>
           </div>
@@ -143,8 +151,9 @@
         </div>
       </div>
       <div class="col-12">
-        <a href="https://www.linkedin.com/in/audrey-dandurand-7b150532b/?originalSubdomain=ca"><img width="40" height="40" src="https://img.icons8.com/ios-filled/40/linkedin.png" alt="linkedin"/></a>
-          <a href="https://www.instagram.com/audreydandurand_/"><img width="40" height="40"
+        <a href="https://www.linkedin.com/in/audrey-dandurand-7b150532b/?originalSubdomain=ca"><img width="40"
+            height="40" src="https://img.icons8.com/ios-filled/40/linkedin.png" alt="linkedin" /></a>
+        <a href="https://www.instagram.com/audreydandurand_/"><img width="40" height="40"
             src="https://img.icons8.com/ios-glyphs/40/instagram-new.png" alt="instagram-new" /></a>
       </div>
       <hr>

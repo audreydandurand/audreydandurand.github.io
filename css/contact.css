@@ -2,7 +2,7 @@
 /*----- Section hero -----*/
 
 .sectionHeroContact div {
-    background-color: var(--bs-secondary);
+    background-color: var(--bs-light);
 }
 
 .sectionHeroContact img {
@@ -14,7 +14,7 @@
 /*----- Section informations -----*/
 
 .sectionInformations {
-    background-color: var(--bs-light);
+    background-color: var(--bs-primary);
 }
 
 .sectionInformations a img:hover {
@@ -22,11 +22,11 @@
 }
 
 .adresse {
-    color: var(--bs-dark);
+    color: var(--bs-light);
 }
 
 .adresse:hover {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /*----- Bande colorée -----*/
@@ -34,7 +34,26 @@
 .bande-coloree {
     width: 100%;
     height: 10px;
-    background-image: url(../assets/images/bande_colore.jpg);
-    background-position: 100% 40%;
-    background-size: cover;
+    background-color: var(--bs-secondary);
+}
+
+@media screen and (max-width: 768px) { 
+    .sectionHeroContact {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sectionHeroContact .texte {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .sectionHeroContact {
+        text-align: start;
+    }
+
+    .sectionHeroContact .texte {
+        margin-bottom: 0px;
+    }
 }

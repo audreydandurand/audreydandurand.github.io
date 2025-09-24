@@ -17,13 +17,13 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
-var swiper = new Swiper(".mySwiper3", {
+var swiper3 = new Swiper(".mySwiper3", {
   loop: true,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
 });
-var swiper2 = new Swiper(".mySwiper4", {
+var swiper4 = new Swiper(".mySwiper4", {
   loop: true,
   spaceBetween: 10,
   navigation: {
@@ -35,13 +35,13 @@ var swiper2 = new Swiper(".mySwiper4", {
   },
 });
 
-var swiper = new Swiper(".mySwiper5", {
+var swiper5= new Swiper(".mySwiper5", {
   loop: true,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
 });
-var swiper2 = new Swiper(".mySwiper6", {
+var swiper6 = new Swiper(".mySwiper6", {
   loop: true,
   spaceBetween: 10,
   navigation: {
@@ -57,13 +57,13 @@ var swiper2 = new Swiper(".mySwiper6", {
   },
 });
 
-var swiper = new Swiper(".mySwiper7", {
+var swiper7 = new Swiper(".mySwiper7", {
   loop: true,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
 });
-var swiper2 = new Swiper(".mySwiper8", {
+var swiper8 = new Swiper(".mySwiper8", {
   loop: true,
   spaceBetween: 10,
   navigation: {
@@ -75,13 +75,13 @@ var swiper2 = new Swiper(".mySwiper8", {
   },
 });
 
-var swiper = new Swiper(".mySwiper9", {
+var swiper9 = new Swiper(".mySwiper9", {
   loop: true,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
 });
-var swiper2 = new Swiper(".mySwiper10", {
+var swiper10 = new Swiper(".mySwiper10", {
   loop: true,
   spaceBetween: 10,
   navigation: {
@@ -102,7 +102,7 @@ var swiper2 = new Swiper(".mySwiper10", {
 const buttons = document.querySelectorAll("[data-filter]");
 const items = document.querySelectorAll(".video-item");
 
-const colors = ["white", "var(--bs-info)", "white", "var(--bs-secondary)"]; // alternance définie
+const colors = ["white", "var(--bs-secondary)", "white", "var(--bs-secondary)"]; // alternance définie
 
 function applyFilter(filter) {
   const visibleItems = [];

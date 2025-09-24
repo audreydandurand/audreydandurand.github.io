@@ -2,15 +2,9 @@
 /*----- Section hero -----*/
 
 .sectionHeroProjets {
-    background-image: url(../assets/images/hero_projet_background.jpg);
+    background-color:var(--bs-light);
     background-position: 100% 100%;
     background-size: cover;
-}
-
-.inner {
-    height: 600px;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .sectionHeroProjets hr {
@@ -31,6 +25,10 @@
     font-weight: 500;
 }
 
+.sectionMedium {
+    background-color: var(--bs-primary);
+}
+
 /*----- Section projets -----*/
 
 .sectionProjetsRecents hr {
@@ -41,33 +39,46 @@
 }
 
 .sectionProjetsRecents {
-    background-color: var(--bs-light);
-}
-
-.sectionProjetsRecents .card-1 {
     background-color: var(--bs-secondary);
+    overflow: hidden;
 }
-
-.sectionProjetsRecents .card-2 {
-    background-color: var(--bs-info);
-}
-
-.sectionProjetsRecents .card-3 {
-    background-color: var(--bs-primary);
-}
-
+                                   
 .sectionProjetsRecents img, video {
-    height: 160px;
+    height: 150px;
     width: auto;
     object-fit: cover;
-    object-position: 100% 50%;}
+    object-position: 50% 50%;
+    border-radius: 5px;
+}
+
+.bg-transparent-white {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
 /*----- Bande colorée -----*/
 
 .bande-coloree {
     width: 100%;
     height: 10px;
-    background-image: url(../assets/images/bande_colore.jpg);
-    background-position: 100% 40%;
-    background-size: cover;
+   background-color: var(--bs-secondary);
+}
+
+@media screen and (max-width: 768px) {
+    .sectionProjetsRecents img, video {
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 5px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .sectionProjetsRecents img, video {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 5px;
+}
 }

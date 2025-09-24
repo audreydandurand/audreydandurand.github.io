@@ -13,14 +13,6 @@ main video {
   height: 100%;
 }
 
-.couleur-blanc {
-  background-color: white;
-}
-
-.couleur-orange {
-  background-color: var(--bs-info);
-}
-
 /*----- Media query -----*/
 
 @media screen and (max-width: 768px) {
@@ -46,7 +38,5 @@ main video {
 .bande-coloree {
   width: 100%;
   height: 10px;
-  background-image: url(../assets/images/bande_colore.jpg);
-  background-position: 100% 40%;
-  background-size: cover;
+  background-color: var(--bs-secondary);
 }

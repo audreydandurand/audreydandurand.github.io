@@ -1,8 +1,8 @@
-$light:        #DCE4E6;
-$dark:         #29363E;
-$primary:      #A4C1C7;
-$secondary:    #BCC3C9;
-$info:         #E7D0C0;
+$light:        #ffffff;
+$dark:         #2C3E50;
+$primary:      #2C3E50;
+$secondary:    #BBB8B2;
+$info:         #96616B;
 $success :     #a8a890;
 $warning :     #edd134;
 $danger :      #ff9f7c;
@@ -10,14 +10,14 @@ $white: #ffffff;
 $beige: #DBD7D4;
 
 $theme-colors: (
-    "light":      #DCE4E6,
-    "dark":       #29363E,
-    "primary":    #A4C1C7,
-    "secondary":  #BCC3C9,
-    "info":       #E7D0C0,
-    "success":    #a8a890,
+    "light":      #ffffff,
+    "dark":       #2C3E50,
+    "primary":    #2C3E50,
+    "secondary":  #BBB8B2,
+    "info":       #96616B,
+    "success":    #a8a890, 
     "warning":    #edd134,
     "danger":     #ff9f7c,
 );
 
-@import '../vendors/bootstrap-5.3.2/scss/bootstrap.scss'
+@import '../vendors/bootstrap-5.3.8/scss/bootstrap.scss'
